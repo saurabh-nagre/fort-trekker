@@ -1,0 +1,36 @@
+.right-half {
+  background-image:url('../../assets/background.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+}
+
+
+@media screen and (min-width:500px) {
+  .right-half,.left-half {
+    flex: 1;
+  }
+}
+
+.error-text {
+  font-size: 12px;
+}
+
+.logo {
+  height: auto;
+  width: 100px;
+}
+.input{
+  background-color:#edfffd;
+}
+.text {
+  padding: 0;
+  margin: 0;
+  max-lines: 1;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
